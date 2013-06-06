@@ -1,0 +1,6 @@
+---
+---
+{% include bootstrap/docs/assets/css/bootstrap.css %}
+{% include css/custom.css %}
+{% include bootstrap/docs/assets/css/bootstrap-responsive.css %}
+{% include bootstrap/docs/assets/js/google-code-prettify/prettify.css %}

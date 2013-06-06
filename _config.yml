@@ -1,0 +1,12 @@
+auto: true
+markdown: rdiscount
+permalink: /:title
+pygments: true
+rdiscount:
+  extensions: [smart]
+server: true
+
+author:
+        name: Example Name
+
+description: Example Description
