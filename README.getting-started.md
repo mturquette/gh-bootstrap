@@ -1,5 +1,3 @@
----
-
 Feel free to delete all of the Jekyll **posts** under _posts/ and 
 
 I recommend that you add the following
