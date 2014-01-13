@@ -1,20 +1,42 @@
 # [gh-bootstrap](https://github.com/mturquette/gh-bootstrap)
 
-Simple bootstrap for a [Jekyll](http://jekyllrb.com/)-generated, [Twitter Bootstrap](http://twitter.github.io/bootstrap/)-powered website.
+Simple bootstrap for a [Jekyll](http://jekyllrb.com/)-generated,
+[Twitter Bootstrap](http://twitter.github.io/bootstrap/)-powered
+website.
+
+A better name would have been jekyll-bootstrap but it was already taken.
 
 # tl;dr
 For the impatient, follow these Exact Steps&trade;:
 
 	git clone git://github.com/mturquette/gh-bootstrap.git
 	cd gh-bootstrap
-	jekyll
+	jekyll serve
 
-Open your browser and navigate to [http://localhost:4000](http://localhost:4000) and you'll see an exact replica of [starter-template.html](http://twitter.github.io/bootstrap/examples/starter-template.html).
+Open your browser and navigate to
+[http://localhost:4000](http://localhost:4000) on Linux or
+[http://0.0.0.0:4000](http://0.0.0.0:4000) on Mac OS X and you'll see an
+exact replica of
+[starter-template.html](http://getbootstrap.com/examples/starter-template/).
 
 # why?
-While redesigning [my blog](http://deferred.io) I decided to use Bootstrap. Many [github-pages](http://pages.github.com/) use Bootstrap, but cloning someone's blog or project page and reworking it is a pain. I also wanted to avoid rolling my own solution like every other github-page out there and adding to the chaos. What I wanted was a **framework**. I was surprised not to find many options for this, and the ones I found where either very [opinionated](http://stackoverflow.com/questions/802050/what-is-opinionated-software) or did not provide a clear upgrade path to future versions of Bootstrap.
+While redesigning [my blog](http://deferred.io) I decided to use
+Bootstrap. Many [github-pages](http://pages.github.com/) use Bootstrap,
+but cloning someone's blog or project page and reworking it is a pain. I
+also wanted to avoid rolling my own solution like every other
+github-page out there and adding to the chaos. What I wanted was a
+**framework**. I was surprised not to find many options for this, and
+the ones I found where either very
+[opinionated](http://stackoverflow.com/questions/802050/what-is-opinionated-software)
+or did not provide a clear upgrade path to future versions of Bootstrap.
 
-Instead of simply rolling my own solution and immediately spoiling the environment with my own hideous css and javascript I opted to create a bootstrap of Bootstrap for a bare bones github page. Hence gh-bootstrap.
+Instead of simply rolling my own solution and immediately spoiling the
+environment with my own hideous css and javascript I opted to create a
+bootstrap of Bootstrap for a bare bones github page. Hence gh-bootstrap.
+
+From the [Bootstrap website](http://getbootstrap.com/getting-started/#customizing), "Bootstrap is best maintained when you treat it as a separate and independently-versioned dependency in your development environment. Doing this makes upgrading Bootstrap easier in the future."
+
+Managing Bootstrap as a git submodule is the right way to do this.
 
 # goal
 The goal of this project is to provide a pristine baseline for github-pages using Bootstrap. Almost no personal preference, opinion, customization or religion is present. Instead this skeleton aims to perfectly reproduce the **starter-template.html** example from the Bootstrap documentation with Jekyll and do nothing more.
