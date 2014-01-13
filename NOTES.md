@@ -1,9 +1,3 @@
-rename project to any of the following:
-
-ghbs
-bsbs
-bs^2
-
 Create a gh-pages branch that has an "article" for every twbs example. See:
 http://getbootstrap.com/getting-started/#examples
 
