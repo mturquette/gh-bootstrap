@@ -1,6 +1,10 @@
 ---
 ---
-{% include bootstrap/docs/assets/css/bootstrap.css %}
-{% include css/custom.css %}
-{% include bootstrap/docs/assets/css/bootstrap-responsive.css %}
-{% include bootstrap/docs/assets/js/google-code-prettify/prettify.css %}
+{% include bootstrap/dist/css/bootstrap.min.css %}
+
+{% comment %}
+	use minified CSS by default {% endcomment %}
+
+{% comment %}
+{% include bootstrap/dist/css/bootstrap.css %}
+{% endcomment %}
