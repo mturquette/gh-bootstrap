@@ -71,3 +71,11 @@ baseline you stand to benefit from more reuse as others create their own
 opinionated gh-bootstrapbootstrap and follow a similar layout to your
 own.
 
+
+---
+
+# Adding dependencies
+
+Use git submodules to add in new dependencies (e.g. backbone.js).
+Aggregate any new CSS or JS assets by adding an additional **include**
+directive in `css/all.css` or `js/all.js`.
