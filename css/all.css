@@ -1,6 +1,42 @@
 ---
 ---
+{% comment %}
+		old includes from 2.3.1
+{% include bootstrap/docs-assets/css/docs.css %}
 {% include bootstrap/docs/assets/css/bootstrap.css %}
 {% include css/custom.css %}
 {% include bootstrap/docs/assets/css/bootstrap-responsive.css %}
 {% include bootstrap/docs/assets/js/google-code-prettify/prettify.css %}
+{% endcomment %}
+
+{% comment %}
+		bootstrap examples.
+		see: http://getbootstrap.com/getting-started/#examples
+{% endcomment %}
+{% include bootstrap/examples/navbar-static-top/navbar-static-top.css %}
+{% include bootstrap/examples/carousel/carousel.css %}
+{% include bootstrap/examples/starter-template/starter-template.css %}
+{% include bootstrap/examples/justified-nav/justified-nav.css %}
+{% include bootstrap/examples/navbar-fixed-top/navbar-fixed-top.css %}
+{% include bootstrap/examples/jumbotron/jumbotron.css %}
+{% include bootstrap/examples/non-responsive/non-responsive.css %}
+{% include bootstrap/examples/signin/signin.css %}
+{% include bootstrap/examples/offcanvas/offcanvas.css %}
+{% include bootstrap/examples/grid/grid.css %}
+{% include bootstrap/examples/jumbotron-narrow/jumbotron-narrow.css %}
+{% include bootstrap/examples/sticky-footer-navbar/sticky-footer-navbar.css %}
+{% include bootstrap/examples/navbar/navbar.css %}
+{% include bootstrap/examples/sticky-footer/sticky-footer.css %}
+{% include bootstrap/examples/theme/theme.css %}
+
+{% comment %}
+		standard doc css
+{% endcomment %}
+{% include bootstrap/docs-assets/css/pygments-manni.css %}
+{% include bootstrap/docs-assets/css/docs.css %}
+
+{% include bootstrap/dist/css/bootstrap-theme.css %}
+{% include bootstrap/dist/css/bootstrap.min.css %}
+{% include bootstrap/dist/css/bootstrap-theme.min.css %}
+{% include bootstrap/dist/css/bootstrap.css %}
+{% include bootstrap/js/tests/vendor/qunit.css %}
