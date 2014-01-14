@@ -1,0 +1,11 @@
+---
+---
+{% include bootstrap/dist/css/bootstrap-theme.min.css %}
+
+{% comment %}
+	use minified CSS by default {% endcomment %}
+
+{% comment %}
+{% include bootstrap/dist/css/bootstrap-theme.css %}
+{% endcomment %}
+
