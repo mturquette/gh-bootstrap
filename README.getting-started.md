@@ -1,3 +1,24 @@
+gh-bootstrap provides a Jekyll **layout** corresponding to every example
+in the Bootstrap ["Getting Started
+guide"](http://getbootstrap.com/getting-started/#examples). Do not edit
+these layouts. Instead copy them and make new ones with your
+customizations.
+
+Creation of an **index.html** and content under **_posts** is up to you.
+Likewise you need to create the **CNAME** file and any custom Javascript
+or CSS under the **js/** and **css/** directories respectively. Do not
+directly edit any of the Bootstrap JS or CSS. Instead make a copy in a
+new file and then change it up.
+
+If you follow those guidelines above then it is trivial for you to merge
+new versions of gh-bootstrap after you have used it to build your own
+website. There will be no merge conflicts.
+
+For more details about gh-bootstrap's structure and how to use it for
+your own blog please see README.getting-started.md
+
+---
+
 Feel free to delete all of the Jekyll **posts** under _posts/ and 
 
 I recommend that you add the following
