@@ -7,13 +7,13 @@ To do this, create a layout template under _layouts which serves as each type of
 
 Goals for today:
 
-1) finish all css and js aggregation
-2) clean up commits
+x 1) finish all css and js aggregation
+x 2) clean up commits
 3) finish documentation
-	README.md
+x 	README.md
 	README.getting-started.md
 	README.checklist.md ???
-4) remove CNAME and other crap
+x 4) remove CNAME and other crap
 5) generate gh-pages branch based on v3.0.3 with a single index.html using the starter-template
 
 ---
